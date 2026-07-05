@@ -1,6 +1,7 @@
 import Sidebar from "@/components/Sidebar";
 import Navbar from "@/components/Navbar";
 import DashboardCards from "@/components/DashboardCards";
+import AIAssistant from "@/components/AIAssistant";
 import ProjectForm from "@/components/ProjectForm";
 import ProjectList from "@/components/ProjectList";
 import TaskForm from "@/components/TaskForm";
@@ -14,6 +15,7 @@ export default function DashboardPage() {
 
       {/* Main Content */}
       <div className="flex-1">
+        {/* Navbar */}
         <Navbar />
 
         <main className="p-8 space-y-12">
@@ -25,6 +27,8 @@ export default function DashboardPage() {
             </h1>
 
             <DashboardCards />
+
+            <AIAssistant />
           </section>
 
           {/* Projects */}
@@ -67,7 +71,7 @@ export default function DashboardPage() {
             </p>
 
             <p className="text-slate-400 mt-2">
-              Manage your projects and tasks efficiently.
+              Manage your projects and tasks efficiently with AI-powered productivity insights.
             </p>
           </section>
 
