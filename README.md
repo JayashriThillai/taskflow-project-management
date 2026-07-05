@@ -1,36 +1,130 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TaskFlow – AI Powered Project Management System
 
-## Getting Started
+TaskFlow is a modern full-stack Project Management web application built using **Next.js, TypeScript, Tailwind CSS, and Supabase**. It helps users organize projects and tasks while providing AI-inspired productivity insights based on deadlines, priorities, and completion status.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+##  Live Demo
+
+**Website:** https://taskflow-project-management-9csp.vercel.app
+
+---
+
+##  Features
+
+###  Authentication
+- User Signup
+- User Login
+- Secure Logout
+- Supabase Authentication
+
+###  Dashboard
+- Real-time statistics
+- Total Projects
+- Active Projects
+- Completed Projects
+- Total Tasks
+
+### Project Management
+- Create Project
+- View Projects
+- Mark Project as Complete
+- Delete Project
+- Due Date & Time
+- Priority Levels
+
+###  Task Management
+- Create Tasks
+- View Tasks
+- Mark Tasks as Complete
+- Delete Tasks
+- Due Date & Time
+- Priority Levels
+
+###  AI Productivity Assistant
+The Smart Productivity Assistant analyzes:
+- Pending Tasks
+- Completed Tasks
+- High Priority Tasks
+- Tasks Due Today
+- Productivity Percentage
+
+It provides intelligent recommendations to help users complete the most important work first.
+
+---
+
+##  Tech Stack
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Supabase
+- PostgreSQL
+- Vercel
+
+---
+
+##  Project Structure
+
+```
+app/
+components/
+lib/
+public/
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+##  Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+git clone https://github.com/JayashriThillai/taskflow-project-management.git
 
-## Learn More
+cd taskflow-project-management
 
-To learn more about Next.js, take a look at the following resources:
+npm install
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+##  Screenshots
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Login Page
+- Dashboard
+- Project Management
+- Task Management
+- AI Productivity Assistant
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+(Add screenshots after capturing them.)
+
+---
+
+##  Future Enhancements
+
+- AI Chat Assistant
+- Email Reminders
+- Browser Notifications
+- Calendar View
+- Team Collaboration
+- Analytics Dashboard
+- Mobile Responsive Improvements
+
+---
+
+##  Developed By
+
+**Jayashri T**
+
+Electronics and Communication Engineering
+
+SSN College of Engineering
+
+GitHub:
+https://github.com/JayashriThillai
+
+---
+
+ If you like this project, consider giving it a star!

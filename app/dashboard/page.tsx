@@ -23,7 +23,7 @@ export default function DashboardPage() {
           {/* Dashboard */}
           <section id="dashboard">
             <h1 className="text-4xl font-bold text-white mb-6">
-              🚀 TaskFlow Dashboard
+               TaskFlow Dashboard
             </h1>
 
             <DashboardCards />
@@ -34,7 +34,7 @@ export default function DashboardPage() {
           {/* Projects */}
           <section id="projects">
             <h2 className="text-3xl font-bold text-cyan-400 mb-6">
-              📁 Projects
+               Projects
             </h2>
 
             <ProjectForm />
@@ -47,7 +47,7 @@ export default function DashboardPage() {
           {/* Tasks */}
           <section id="tasks">
             <h2 className="text-3xl font-bold text-green-400 mb-6">
-              ✅ Tasks
+               Tasks
             </h2>
 
             <TaskForm />
@@ -63,7 +63,7 @@ export default function DashboardPage() {
             className="bg-slate-900 rounded-xl p-8"
           >
             <h2 className="text-3xl font-bold text-purple-400 mb-4">
-              👤 Profile
+               Profile
             </h2>
 
             <p className="text-white text-lg">
