@@ -75,14 +75,14 @@ export default function AIAssistant() {
     }
 
     setMessage(`
-📁 Projects : ${projects.length}
-✅ Completed Projects : ${completedProjects}
+ Projects : ${projects.length}
+ Completed Projects : ${completedProjects}
 
-📝 Tasks : ${totalTasks}
-✔ Completed Tasks : ${completedTasks}
-⏳ Pending Tasks : ${pendingTasks}
+ Tasks : ${totalTasks}
+Completed Tasks : ${completedTasks}
+ Pending Tasks : ${pendingTasks}
 
-📈 Productivity : ${productivity}%
+ Productivity : ${productivity}%
 
 ${advice}
 `);
@@ -91,7 +91,7 @@ ${advice}
   return (
     <div className="bg-gradient-to-r from-cyan-600 to-blue-700 rounded-xl p-6 text-white shadow-xl mt-10">
       <h2 className="text-2xl font-bold mb-4">
-        🤖 AI Productivity Assistant
+         AI Productivity Assistant
       </h2>
 
       <pre className="whitespace-pre-wrap text-lg font-medium">

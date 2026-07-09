@@ -33,7 +33,7 @@ const handleLogin = async (e: React.FormEvent) => {
       <div className="w-full max-w-md bg-slate-900 rounded-2xl p-8 shadow-lg">
 
         <h1 className="text-3xl font-bold text-center text-cyan-400">
-          Welcome Back 👋
+          Welcome Back 
         </h1>
 
         <p className="text-slate-400 text-center mt-2 mb-8">

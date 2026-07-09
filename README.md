@@ -1,59 +1,23 @@
-# TaskFlow – AI Powered Project Management System
+# TaskFlow – AI-Powered Project Management System
 
-TaskFlow is a modern full-stack Project Management web application built using **Next.js, TypeScript, Tailwind CSS, and Supabase**. It helps users organize projects and tasks while providing AI-inspired productivity insights based on deadlines, priorities, and completion status.
+This project was developed as part of the CodSoft Web Development Internship (Level 3 – Task 2).
 
----
+## Project Overview
 
-##  Live Demo
+TaskFlow is a full-stack project management application that allows users to create projects, manage tasks, set priorities, assign deadlines, and monitor progress. The application also includes an AI Productivity Assistant that provides suggestions based on pending tasks and deadlines.
 
-**Website:** https://taskflow-project-management-9csp.vercel.app
+## Features
 
----
+- User authentication
+- Dashboard with project statistics
+- Create, edit and delete projects
+- Create, edit and delete tasks
+- Set due dates and priorities
+- Mark projects and tasks as completed
+- AI Productivity Assistant
+- Responsive user interface
 
-##  Features
-
-###  Authentication
-- User Signup
-- User Login
-- Secure Logout
-- Supabase Authentication
-
-###  Dashboard
-- Real-time statistics
-- Total Projects
-- Active Projects
-- Completed Projects
-- Total Tasks
-
-### Project Management
-- Create Project
-- View Projects
-- Mark Project as Complete
-- Delete Project
-- Due Date & Time
-- Priority Levels
-
-###  Task Management
-- Create Tasks
-- View Tasks
-- Mark Tasks as Complete
-- Delete Tasks
-- Due Date & Time
-- Priority Levels
-
-###  AI Productivity Assistant
-The Smart Productivity Assistant analyzes:
-- Pending Tasks
-- Completed Tasks
-- High Priority Tasks
-- Tasks Due Today
-- Productivity Percentage
-
-It provides intelligent recommendations to help users complete the most important work first.
-
----
-
-##  Tech Stack
+## Technologies Used
 
 - Next.js
 - React
@@ -63,68 +27,44 @@ It provides intelligent recommendations to help users complete the most importan
 - PostgreSQL
 - Vercel
 
----
+## Live Demo
 
-##  Project Structure
+https://taskflow-project-management-9csp.vercel.app
 
-```
-app/
-components/
-lib/
-public/
-```
+## GitHub Repository
 
----
+https://github.com/JayashriThillai/CODSOFT_TASKNO
 
-##  Installation
+## Screenshots
 
-```bash
-git clone https://github.com/JayashriThillai/taskflow-project-management.git
+### Login Page
 
-cd taskflow-project-management
+![Login](screenshots/login.png)
 
-npm install
+### Dashboard
 
-npm run dev
-```
+![Dashboard](screenshots/dashboard.png)
 
----
+### Projects
 
-##  Screenshots
+![Projects](screenshots/projects.png)
 
-- Login Page
-- Dashboard
-- Project Management
-- Task Management
-- AI Productivity Assistant
+### Tasks
 
-(Add screenshots after capturing them.)
+![Tasks](screenshots/tasks.png)
 
----
+### AI Productivity Assistant
 
-##  Future Enhancements
+![AI Assistant](screenshots/ai-assistant.png)
 
-- AI Chat Assistant
-- Email Reminders
-- Browser Notifications
-- Calendar View
-- Team Collaboration
-- Analytics Dashboard
-- Mobile Responsive Improvements
+## Future Improvements
 
----
+- Email reminders
+- Browser notifications
+- Calendar view
+- Team collaboration
+- Mobile application
 
-##  Developed By
+## Developer
 
-**Jayashri T**
-
-Electronics and Communication Engineering
-
-SSN College of Engineering
-
-GitHub:
-https://github.com/JayashriThillai
-
----
-
- If you like this project, consider giving it a star!
+Jayashri T
